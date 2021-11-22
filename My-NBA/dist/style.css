@@ -1,0 +1,18 @@
+.player{
+    background-color: gray;
+    width: 90%;
+    display: grid;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.players {
+    display: grid;
+    grid-template-areas:
+        "a a a";
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 6fr 2fr;
+}
